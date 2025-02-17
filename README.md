@@ -1,5 +1,19 @@
-# H1
-## H2
+# Projects
+## Project 1
+- Description
+- Links
+  
+## Project 2
+- Description
+- Links
+
+# Education
+- Some edu background
+
+# Work History
+- work place 1
+- work place 2
+
 ### H3
 #### H4
 ##### H5
