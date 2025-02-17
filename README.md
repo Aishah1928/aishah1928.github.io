@@ -1,7 +1,7 @@
 # Projects
 ## Project 1
 - Description
-- Links
+- [my linked link](https://www.linkedin.com/in/aishah-amri-5b2937349)
   
 ## Project 2
 - Description
