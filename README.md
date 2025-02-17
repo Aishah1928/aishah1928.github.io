@@ -1,5 +1,5 @@
 # Profile
-#logo 
+[logo]: docs/assets/my profile pic.jpg 
 
 # Projects
 ## Project 1
