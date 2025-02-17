@@ -1,3 +1,6 @@
+# Profile
+#logo 
+
 # Projects
 ## Project 1
 - Description
