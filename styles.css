@@ -1,37 +1,30 @@
-title {
-    font-family: Georgia, serif;
-    font-weight: bold;
+/* Search Bar */
+#searchBar {
+    width: 60%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
-    margin: 0;
+/* Recipe List */
+#recipeList {
+    list-style: none;
     padding: 0;
 }
 
-header {
-    background-color: #ff5c6c;
-    padding: 15px;
-    color: white;
+#recipeList li {
+    margin: 10px 0;
+    font-size: 1.2em;
 }
 
-nav a {
-    color: white;
-    margin: 0 10px;
+#recipeList a {
     text-decoration: none;
+    color: #333;
 }
 
-main {
-    padding: 20px;
+#recipeList a:hover {
+    color: #4CAF50;
 }
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
