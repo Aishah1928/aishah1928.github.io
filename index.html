@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Recipe Website</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Recipe Website</h1>
+        <div class="hero">
+            <h1>Welcome to My Recipe Website</h1>
+            <p>Discover delicious and easy-to-make recipes!</p>
+            <a href="recipes.html" class="button">Browse Recipes</a>
+        </div>
         <nav>
             <a href="index.html">Home</a>
             <a href="recipes.html">Recipes</a>
@@ -16,10 +21,18 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
+
     <main>
-        <p>Find the best recipes for delicious meals!</p>
-        <a href="recipes.html" class="button">Browse Recipes</a>
+        <h2>Search for Recipes</h2>
+        <input type="text" id="searchBar" placeholder="Search recipes..." onkeyup="searchRecipes()">
+        <ul id="recipeList">
+            <li><a href="recipe1.html">Spaghetti Carbonara</a></li>
+            <li><a href="recipe2.html">Chocolate Cake</a></li>
+            <li><a href="recipe3.html">Caesar Salad</a></li>
+            <li><a href="recipe4.html">Vegetable Stir Fry</a></li>
+        </ul>
     </main>
 </body>
 </html>
+
 
